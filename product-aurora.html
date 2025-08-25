@@ -1,74 +1,86 @@
-<!DOCTYPE html>
-"name": "Aurora Pendant",
-"description": "Matte black pendant with frosted glass globe, E26 base, dimmer compatible.",
-"image": [
-"https://picsum.photos/seed/aurora-light/1200/900",
-"https://picsum.photos/seed/aurora-alt1/1200/900"
-],
-"brand": {"@type": "Brand", "name": "Lumina"},
-"sku": "LUM-AUR-01",
-"gtin13": "0001234567890",
-"material": "Steel, Glass",
-"color": "Matte Black",
-"aggregateRating": {
-"@type": "AggregateRating",
-"ratingValue": "4.4",
-"reviewCount": "108"
-},
-"offers": {
-"@type": "Offer",
-"url": "https://example.com/product-aurora",
-"priceCurrency": "USD",
-"price": "129.00",
-"priceValidUntil": "2026-12-31",
-"availability": "https://schema.org/InStock",
-"itemCondition": "https://schema.org/NewCondition",
-"hasMerchantReturnPolicy": {
-"@type": "MerchantReturnPolicy",
-"applicableCountry": "US",
-"returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
-"merchantReturnDays": 30,
-"returnMethod": "https://schema.org/ReturnByMail",
-"returnFees": "https://schema.org/FreeReturn"
-}
-}
-}
-</script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aurora Pendant — DecoLights</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="canonical" href="https://example.com/product-aurora" />
+  <meta name="description" content="Aurora Pendant: matte black fixture with frosted globe shade. Dimmable. Ideal for kitchen islands and dining nooks." />
+
+  <!-- Product schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "@id": "https://example.com/product-aurora",
+    "name": "Aurora Pendant",
+    "description": "Matte black pendant with frosted glass globe, E26 base, dimmer compatible.",
+    "image": [
+      "https://picsum.photos/seed/aurora-light/1200/900",
+      "https://picsum.photos/seed/aurora-alt1/1200/900"
+    ],
+    "brand": {"@type": "Brand", "name": "Lumina"},
+    "sku": "LUM-AUR-01",
+    "gtin13": "0001234567890",
+    "material": "Steel, Glass",
+    "color": "Matte Black",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.4",
+      "reviewCount": "108"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://example.com/product-aurora",
+      "priceCurrency": "USD",
+      "price": "129.00",
+      "priceValidUntil": "2026-12-31",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 30,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      }
+    }
+  }
+  </script>
 </head>
 <body>
-<header class="site-header">
-<h1><a href="./index.html">DecoLights</a></h1>
-<nav>
-<a href="./index.html">Home</a>
-<a class="active" href="./product-aurora.html">Aurora Pendant</a>
-<a href="./product-lumen.html">Lumen Weave</a>
-<a href="./product-orbit.html">Orbit 6‑Light</a>
-</nav>
-</header>
+  <header class="site-header">
+    <h1><a href="./index.html">DecoLights</a></h1>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a class="active" href="./product-aurora.html">Aurora Pendant</a>
+      <a href="./product-lumen.html">Lumen Weave</a>
+      <a href="./product-orbit.html">Orbit 6‑Light</a>
+    </nav>
+  </header>
 
+  <main class="container product">
+    <div class="gallery">
+      <img src="images/16-800x600.jpg" alt="Aurora Pendant in matte black with frosted globe" />
+    </div>
+    <div class="details">
+      <h2>Aurora Pendant</h2>
+      <p class="price">$129.00</p>
+      <p>Matte black pendant with a frosted glass globe. Works with E26 bulbs up to 60W. Dimmable with compatible switch. Adjustable cord up to 60 in. Sloped‑ceiling ready.</p>
+      <ul class="bullets">
+        <li>Finish: Matte black</li>
+        <li>Shade: Frosted glass globe</li>
+        <li>Max wattage: 60W (E26)</li>
+        <li>Adjustable drop: up to 60 in</li>
+        <li>Compatible with LED bulbs</li>
+      </ul>
+      <a class="btn" href="#">Add to cart</a>
+    </div>
+  </main>
 
-<main class="container product">
-<div class="gallery">
-<img src="https://picsum.photos/seed/aurora-light/1200/900" alt="Aurora Pendant in matte black with frosted globe" />
-</div>
-<div class="details">
-<h2>Aurora Pendant</h2>
-<p class="price">$129.00</p>
-<p>Matte black pendant with a frosted glass globe. Works with E26 bulbs up to 60W. Dimmable with compatible switch. Adjustable cord up to 60 in. Sloped‑ceiling ready.</p>
-<ul class="bullets">
-<li>Finish: Matte black</li>
-<li>Shade: Frosted glass globe</li>
-<li>Max wattage: 60W (E26)</li>
-<li>Adjustable drop: up to 60 in</li>
-<li>Compatible with LED bulbs</li>
-</ul>
-<a class="btn" href="#">Add to cart</a>
-</div>
-</main>
-
-
-<footer class="site-footer">
-<p>Shipping: Free over $50 · 30‑day returns</p>
-</footer>
+  <footer class="site-footer">
+    <p>Shipping: Free over $50 · 30‑day returns</p>
+  </footer>
 </body>
 </html>
