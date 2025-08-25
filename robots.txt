@@ -1,0 +1,8 @@
+User-agent: OAI-SearchBot
+Allow: /
+
+# Optional: allow GPTBot (non-search crawling)
+User-agent: GPTBot
+Allow: /
+
+Sitemap: https://mattoofahad.github.io/product_page/sitemap.xml
